@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Simple gem to fetch foreign exchange rates with optional in-built caching.}
   spec.description   = %q{Built upon https://exchangeratesapi.io/, this gem allows to fetch current exchange rates and more. It comes with an optional built-in cache support built on top of faraday-http-cache which if activated, can enable caching for the response.}
-  spec.homepage      = "https://github.com/parthoghosh24/exchange_rates"
+  spec.homepage      = "https://github.com/parthoghosh24/forex_rates"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/parthoghosh24/exchange_rates"
-    spec.metadata["changelog_uri"] = "https://github.com/parthoghosh24/exchange_rates"
+    spec.metadata["source_code_uri"] = "https://github.com/parthoghosh24/forex_rates"
+    spec.metadata["changelog_uri"] = "https://github.com/parthoghosh24/forex_rates"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
