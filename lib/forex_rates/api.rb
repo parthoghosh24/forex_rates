@@ -11,8 +11,8 @@ module ForexRates
         end
 
         def get_history(start_date, end_date, params)
-            params_hash = params[0]
-            params_hash.merge!({start_date: start_date, end_date: end_date})
+            params_hash = params[0] || {}
+            params_hash.merge!({start_at: start_date, end_at: end_date})
             self.get "/history#{build_query_params(params_hash)}"
         end
 
